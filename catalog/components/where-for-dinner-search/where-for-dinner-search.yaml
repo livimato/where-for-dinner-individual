@@ -30,4 +30,4 @@ spec:
   owner: where-for-dinner-team
   system: where-for-dinner
   definition:
-    $text: http://where-for-dinner-individual.workloads.tanzu-lab.com/api/search/v3/api-docs/
+    $text: http://where-for-dinner.workloads.tanzu-lab.com/api/search/v3/api-docs/
