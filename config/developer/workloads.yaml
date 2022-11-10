@@ -18,7 +18,7 @@ spec:
       url: https://github.com/livimato/where-for-dinner-individual.git
       ref:
         branch: main
-    subPath: where-for-dinner/where-for-dinner-api-gateway
+    subPath: where-for-dinner-api-gateway
 ---
 apiVersion: carto.run/v1alpha1
 kind: Workload
@@ -46,7 +46,7 @@ spec:
       url: https://github.com/livimato/where-for-dinner-individual.git
       ref:
         branch: main
-    subPath: where-for-dinner/where-for-dinner-search
+    subPath: where-for-dinner-search
 ---
 apiVersion: carto.run/v1alpha1
 kind: Workload
@@ -73,7 +73,7 @@ spec:
       url: https://github.com/livimato/where-for-dinner-individual.git
       ref:
         branch: main
-    subPath: where-for-dinner/where-for-dinner-search-proc
+    subPath: where-for-dinner-search-proc
 ---
 apiVersion: carto.run/v1alpha1
 kind: Workload
@@ -100,7 +100,7 @@ spec:
       url: https://github.com/livimato/where-for-dinner-individual.git
       ref:
         branch: main
-    subPath: where-for-dinner/where-for-dinner-notify
+    subPath: where-for-dinner-notify
 ---
 apiVersion: carto.run/v1alpha1
 kind: Workload
@@ -128,7 +128,7 @@ spec:
       url: https://github.com/livimato/where-for-dinner-individual.git
       ref:
         branch: main
-    subPath: where-for-dinner/where-for-dinner-availability
+    subPath: where-for-dinner-availability
 ---
 apiVersion: carto.run/v1alpha1
 kind: Workload
@@ -150,4 +150,4 @@ spec:
       url: https://github.com/livimato/where-for-dinner-individual.git
       ref:
         branch: main
-    subPath: where-for-dinner/where-for-dinner-ui
+    subPath: where-for-dinner-ui

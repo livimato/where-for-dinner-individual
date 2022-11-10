@@ -20,7 +20,7 @@ spec:
       name: rmq-where-for-dinner
   source:
     git:
-      url: https://github.com/vmware-tanzu/application-accelerator-samples.git
+      url: https://github.com/livimato/where-for-dinner-individual.git
       ref:
         branch: main
-    subPath: where-for-dinner/where-for-dinner-search
+    subPath: where-for-dinner-search
